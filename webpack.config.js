@@ -17,5 +17,6 @@ module.exports={
             template:"src/index.html"
         }),
         new CleanWebpackPlugin()
-    ]
+    ],
+    devtool:"inline-source-map"
 }
