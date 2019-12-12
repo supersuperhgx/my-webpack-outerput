@@ -1,0 +1,25 @@
+{
+  "name": "my-webpack-outerput",
+  "version": "1.0.0",
+  "description": "webpack管理输出模块的学习",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supersuperhgx/my-webpack-outerput.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supersuperhgx/my-webpack-outerput/issues"
+  },
+  "homepage": "https://github.com/supersuperhgx/my-webpack-outerput#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
