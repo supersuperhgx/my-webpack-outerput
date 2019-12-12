@@ -18,5 +18,6 @@ module.exports={
         }),
         new CleanWebpackPlugin()
     ],
-    devtool:"inline-source-map"
+    devtool:"inline-source-map",
+    devServer:{contentBase:"./dist"}
 }
